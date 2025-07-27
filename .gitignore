@@ -1,0 +1,41 @@
+# Node modules (both backend and frontend)
+node_modules/
+**/node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.*  # optional: ignores .env.development, .env.production, etc.
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage reports
+coverage/
+
+# React files
+frontend/build/
+frontend/.env
+
+# Backend files
+backend/.env
+backend/tmp/
+backend/logs/
+
